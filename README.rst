@@ -1,5 +1,5 @@
-`simplemath` -- project for learning 4 basic algebraic operationswith python
-============================================================================
+`simplemath` -- project for learning 4 basic algebraic operations with python
+=============================================================================
 
 `simplemath` project presents the visualization of 4 basic algebraic operations. With help of the ascii or UTF characters it assists younger children in learning how to calculate and how to use the python programming language.
 
