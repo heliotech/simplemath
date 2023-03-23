@@ -27,22 +27,27 @@ def add(a, b):
     """ Addition """
 
     print("Addition:")
-    print("•"*a, "+", "•"*b, "=", "•"*(a + b))
+    print("•"*a, "(", a, ") +", "•"*b, "(", b, ") =", "•"*(a + b),
+          "(", (a + b), ")")
 
 
 def sub(a, b):
     print("Subtraction:")
-    print("•"*a, "–", "•"*b, "=", "•"*(a - b))
+    # print("•"*a, "–", "•"*b, "=", "•"*(a - b))
+    print(f"{'•'*a} ({a}) – {'•'*b} ({b}) = {'•'*(a - b)} ({(a - b)}) ")
 
 
 def mul(a, b):
     print("Multiplication:")
-    print("•"*a, "×", "•"*b, "=", "•"*(a*b))
+    print(f"{'•'*a} ({a}) × {'•'*b} ({b}) = {'•'*(a*b)} ({a + b})")
 
 
 def div(a, b):
     print("Division:")
-    print("•"*a, "÷", "•"*b, "=", "•"*(a//b))
+    print("(valid only for integer arguments and the result!)")
+    assert isinstance(a, int) and isinstance(b, int) and (a//b == a/b)
+    # print("•"*a, "÷", "•"*b, "=", "•"*(a//b))
+    print(f"{'•'*a} ({a}) ÷ {'•'*b} ({b}) = {'•'*(a//b)} ({a//b})")
 
 
 def simpleMath_demo():
