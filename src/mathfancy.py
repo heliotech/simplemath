@@ -19,7 +19,7 @@ Symbols:
 # from numpy import sign
 from math import copysign
 
-from mutils import DbgInfo
+from src.mutils import DbgInfo
 
 DBG = True
 dbgi = DbgInfo(DBG=DBG)

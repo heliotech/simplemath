@@ -4,7 +4,7 @@
 Examples for `simplemath` project
 """
 
-from src.simplemath import add, sub, mul, div
+from src.mathsimple import add, sub, mul, div
 
 
 def addition():

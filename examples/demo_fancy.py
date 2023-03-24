@@ -7,7 +7,7 @@
 Examples for `simplemath` project
 """
 
-from src.fancymath import add, sub, mul, div
+from src.mathfancy import add, sub, mul, div
 
 
 def addition():
