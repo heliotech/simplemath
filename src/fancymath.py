@@ -16,9 +16,10 @@ Symbols:
     division \u00F7 -> ÷
 
 """
-from numpy import sign
+# from numpy import sign
+from math import copysign
 
-from khutils import DbgInfo
+from mutils import DbgInfo
 
 DBG = True
 dbgi = DbgInfo(DBG=DBG)
@@ -31,6 +32,12 @@ mrkDot = "•"
 mrkCat = chr(128008)  # 🐈
 mrkDog = chr(128021)  # 🐕
 mrkSnake = chr(128013)  # 🐍
+
+
+def sign(value):
+    """ Adaptation of `copysign` function """
+
+    return copysign(1, value)
 
 
 def printEval(code):
@@ -79,7 +86,7 @@ def representNumber(num, marker=mrkDot, sep=" ", part=5,
     printd(f"{num = }, {len(mainPart) = }, {remainder = },\n"
            f"{len(remainderGraph) = } <= {remainderGraph}\n"
            f"{numGraph = }",
-           src="getNumGraph", DBG=DBG)
+           src="representNumber", DBG=DBG)
 
     newLine0 = "" if len(numGraph) < 21 else "\n"  # 'last' new line
 
@@ -144,7 +151,7 @@ def main():
     print(mrkDog, type(mrkDog))
     for i, (a, b) in enumerate(zip(nrs, bes)):
         mul(a, b, mrkrs[i])
-    add(3, 5, marker)
+    add(3, 5.3, marker)
     sub(12, 3, marker)
     div(14., 2, marker)
 

@@ -1,3 +1,15 @@
+Metadata-Version: 2.1
+Name: simplemath
+Version: 0.5.0
+Summary: Simple algebra with python
+Author: ['khaz']
+Author-email: khaz <pykhaz@o2.pl>
+License: MIT
+Keywords: algebra,python,basic
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
 `simplemath` -- project for learning 4 basic algebraic operations with python
 =============================================================================
 

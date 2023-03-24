@@ -1,4 +1,4 @@
-# demo.py
+# demo_simple.py
 
 """
 Examples for `simplemath` project
