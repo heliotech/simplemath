@@ -29,6 +29,15 @@ WARNING! `simplemath.py` has no error handling, except for `div`, and should be 
 
 The functions are designed for positive integers, although they are provided with basic error handling.
 
+Development environment
+-----------------------
+
+- Linux Mint 21.1 Vera, x86_64, desktop: Cinnamon 5.6.8.
+- Python 3.10.6
+- Sublime Text build: 4143
+- Terminal: Terminator 2.1.1, gnome-terminal 3.44.0
+
+
 Author
 ------
 

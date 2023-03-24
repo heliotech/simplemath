@@ -18,7 +18,7 @@ ftitle = __file__.split('/')[-1].split('.')[0]
 
 
 def printEval(code):
-    print(code + " 🠂")
+    print(code + " :→")
     eval(code)
     print()
 

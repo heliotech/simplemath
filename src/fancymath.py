@@ -43,7 +43,7 @@ def sign(value):
 def printEval(code):
     """ Prints and evaluates `code` """
 
-    print(code + " 🠂")
+    print(code + " →")
     eval(code)
     print()
 
